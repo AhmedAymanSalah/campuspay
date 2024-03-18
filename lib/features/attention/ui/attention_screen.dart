@@ -5,7 +5,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import 'package:campuspay/core/helpers/extentions.dart';
 import 'package:campuspay/core/theme/colors.dart';
-import 'package:campuspay/features/attention/widget/link_collage_mail.dart';
 import 'package:campuspay/features/attention/widget/text1_2.dart';
 import 'package:campuspay/widget/custom_elevated_button.dart';
 import 'package:campuspay/widget/custom_text_widget.dart';
@@ -48,7 +47,7 @@ class AttentionScreen extends StatelessWidget {
                 textAlign: TextAlign.start,
               ),
               ///////////// mail link//////////////
-              const CollageMailLink(),
+              //const CollageMailLink(),
               ////////////// butten
               AppTextButton(
                 text: "Start",

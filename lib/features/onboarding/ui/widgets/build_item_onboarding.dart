@@ -114,7 +114,7 @@ class _BuildItemOnBoardingState extends State<BuildItemOnBoarding> {
               AppTextButton(
                 text: "Sign In",
                 onPressed: () {
-                  context.navigateToReplacement(Routes.loginScreen);
+                  context.navigateTo(Routes.loginScreen);
                 },
                 buttonColor: Colors.white,
                 textColor: ColorsManager.mainBlue,

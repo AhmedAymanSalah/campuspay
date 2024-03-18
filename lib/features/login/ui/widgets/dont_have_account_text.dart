@@ -20,13 +20,13 @@ class DontHaveAccountText extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
+              padding: EdgeInsets.symmetric(horizontal: 10.w),
               child: Text(
                 'or ',
                 style: TextStyle(
                   color: Colors.grey[700],
                   fontFamily: "Roboto Slab",
-                  fontSize: 17,
+                  fontSize: 17.sp,
                 ),
               ),
             ),
@@ -38,12 +38,12 @@ class DontHaveAccountText extends StatelessWidget {
             )
           ],
         ),
-        verticalSpace(20),
+        verticalSpace(15),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Not a member?',
+              'Not a member ?',
               style: TextStyle(
                 color: Colors.grey[700],
                 fontFamily: "Roboto Slab",
@@ -56,7 +56,7 @@ class DontHaveAccountText extends StatelessWidget {
                 context.navigateToReplacement(Routes.signUpScreen);
               },
               child: Text(
-                'Register Now',
+                '  Register Now',
                 style: TextStyle(
                   fontSize: 14.sp,
                   color: Colors.blue,

@@ -20,32 +20,35 @@ class SignupScreen extends StatelessWidget {
       backgroundColor: Colors.grey.shade300,
       body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: .20.h),
+          padding: EdgeInsets.symmetric(horizontal: 20.w,),
           child: SingleChildScrollView(
             child: Center(
-              child: Column(
-                children: [
-                  verticalSpace(10),
-                  const IconAndTextSiginUp(),
-                  verticalSpace(30),
-                  Column(
-                    children: [
-                      const SignupForm(),
-                      verticalSpace(30),
-                      AppTextButton(
-                        text: "Create Account",
-                        onPressed: () {
-                          validateThenDoSignup(context);
-                        },
-                      ),
-                      verticalSpace(14),
-                      const TermsAndConditionsText(),
-                      verticalSpace(16),
-                      const AlreadyHaveAccountText(),
-                      const SignupBlocListener(),
-                    ],
-                  ),
-                ],
+              child: Padding(
+                padding: EdgeInsets.symmetric(vertical: 20.h),
+                child: Column(
+                  children: [
+                    verticalSpace(10),
+                    const IconAndTextSiginUp(),
+                    verticalSpace(30),
+                    Column(
+                      children: [
+                        const SignupForm(),
+                        verticalSpace(30),
+                        AppTextButton(
+                          text: "Create Account",
+                          onPressed: () {
+                            validateThenDoSignup(context);
+                          },
+                        ),
+                        verticalSpace(14),
+                        const TermsAndConditionsText(),
+                        verticalSpace(20),
+                        const AlreadyHaveAccountText(),
+                        const SignupBlocListener(),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ),

@@ -39,12 +39,12 @@ class AlreadyHaveAccountText extends StatelessWidget {
             )
           ],
         ),
-        verticalSpace(20),
+        verticalSpace(15),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Already you have an account?',
+              'Already have an account?',
               style: TextStyle(
                 color: Colors.grey[700],
                 fontFamily: "Roboto Slab",

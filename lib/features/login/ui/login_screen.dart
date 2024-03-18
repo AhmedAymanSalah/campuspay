@@ -19,11 +19,11 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
-      appBar: AppBar(
-        backgroundColor: Colors.grey[200],
-        elevation: 0,
-        iconTheme: const IconThemeData(color: Colors.black),
-      ),
+      // appBar: AppBar(
+      //   backgroundColor: Colors.grey[200],
+      //   elevation: 0,
+      //   iconTheme: const IconThemeData(color: Colors.black),
+      // ),
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 20.h),
@@ -57,7 +57,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                       verticalSpace(14),
                       const TermsAndConditionsText(),
-                      verticalSpace(30),
+                      verticalSpace(20),
                       const DontHaveAccountText(),
                       const LoginBlocListener(),
                     ],
