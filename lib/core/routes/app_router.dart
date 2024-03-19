@@ -1,4 +1,3 @@
-
 import '../../features/services/ui/services_list_view.dart';
 import 'routes.dart';
 import '../../features/attention/ui/attention_Screen.dart';
@@ -37,7 +36,7 @@ class AppRouter {
             child: const SignupScreen(),
           ),
         );
-        
+
       case Routes.loginScreen:
         // Return a MaterialPageRoute for the LoginScreen route.
         return MaterialPageRoute(
@@ -52,7 +51,10 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const HomeScreen());
       case Routes.servicesScreen:
         // Return a MaterialPageRoute for the OnBoardingScreen route.
-        return MaterialPageRoute(builder: (_) =>  ServicesScreen());
+        return MaterialPageRoute(builder: (_) => const ServicesScreen());
+      // case Routes.payServicesSceen:
+      //   // Return a MaterialPageRoute for the OnBoardingScreen route.
+      //   return MaterialPageRoute(builder: (_) => const PayServicesSceen(s));
       // default:
       //   // If the requested route is not found, return a MaterialPageRoute for an unknown screen.
       //   return MaterialPageRoute(

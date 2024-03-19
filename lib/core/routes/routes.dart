@@ -12,4 +12,6 @@ class Routes {
   static const String homeScreen = '/homeScreen';
 
   static const String servicesScreen = '/servicesScreen';
+
+  static const String payServicesSceen = '/payServicesSceen';
 }
