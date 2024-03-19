@@ -1,8 +1,8 @@
-import 'package:campuspay/core/networking/api_service.dart';
-import 'package:campuspay/core/networking/dio_factory.dart';
-import 'package:campuspay/features/login/data/repos/login_repo.dart';
-import 'package:campuspay/features/login/logic/cubit/login_cubit.dart';
-import 'package:campuspay/features/sign_up/logic/sign_up_cubit.dart';
+import '../networking/api_service.dart';
+import '../networking/dio_factory.dart';
+import '../../features/login/data/repos/login_repo.dart';
+import '../../features/login/logic/cubit/login_cubit.dart';
+import '../../features/sign_up/logic/sign_up_cubit.dart';
 import 'package:dio/dio.dart';
 
 import 'package:get_it/get_it.dart';

@@ -1,13 +1,14 @@
-import 'package:campuspay/core/helpers/extentions.dart';
-import 'package:campuspay/core/helpers/spacing.dart';
-import 'package:campuspay/core/theme/colors.dart';
+import '../../../../core/helpers/extentions.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:campuspay/features/onboarding/data/models/onboarding_model.dart';
+import '../../../../core/widgets/app_button.dart';
+import '../../../../core/widgets/custom_text_widget.dart';
+import '../../data/models/onboarding_model.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import '../../../../core/routes/routes.dart';
-import '../../../../widget/custom_elevated_button.dart';
-import '../../../../widget/custom_text_widget.dart';
+
 import '../../data/models/list_data.dart';
 
 // ignore: must_be_immutable

@@ -6,10 +6,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:campuspay/core/helpers/extentions.dart';
 import 'package:campuspay/core/theme/colors.dart';
 import 'package:campuspay/features/attention/widget/text1_2.dart';
-import 'package:campuspay/widget/custom_elevated_button.dart';
-import 'package:campuspay/widget/custom_text_widget.dart';
+
 
 import '../../../core/routes/routes.dart';
+import '../../../core/widgets/app_button.dart';
+import '../../../core/widgets/custom_text_widget.dart';
 
 class AttentionScreen extends StatelessWidget {
   const AttentionScreen({super.key});
@@ -25,7 +26,7 @@ class AttentionScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              ///////////// text Attention
+              /////////////  text Attention
 
               CustomTextWidget(
                 text: "Attention!!",

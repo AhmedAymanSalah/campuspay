@@ -4,7 +4,7 @@ import 'package:campuspay/core/helpers/spacing.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../core/theme/colors.dart';
-import '../../../../widget/custom_text_widget.dart';
+import '../../../../core/widgets/custom_text_widget.dart';
 
 class IconAndText extends StatelessWidget {
   const IconAndText({super.key});

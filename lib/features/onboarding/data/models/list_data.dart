@@ -1,5 +1,5 @@
 
-import 'package:campuspay/features/onboarding/data/models/onboarding_model.dart';
+import 'onboarding_model.dart';
 
 List<OnBoardingModel> onBoardingList = [
   OnBoardingModel(

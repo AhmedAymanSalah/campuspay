@@ -1,6 +1,6 @@
-import 'package:campuspay/core/helpers/extentions.dart';
-import 'package:campuspay/core/helpers/spacing.dart';
-import 'package:campuspay/core/routes/routes.dart';
+import '../../../../core/helpers/extentions.dart';
+import '../../../../core/helpers/spacing.dart';
+import '../../../../core/routes/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

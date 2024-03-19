@@ -1,7 +1,8 @@
-import 'package:campuspay/core/theme/colors.dart';
-import 'package:campuspay/widget/custom_text_widget.dart';
+import '../theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+import 'custom_text_widget.dart';
 
 class AppTextButton extends StatelessWidget {
   final String text;

@@ -1,6 +1,6 @@
-import 'package:campuspay/core/routes/routes.dart';
-import 'package:campuspay/features/attention/ui/attention_Screen.dart';
-import 'package:campuspay/features/home/ui/screen/home_screen.dart';
+import 'routes.dart';
+import '../../features/attention/ui/attention_Screen.dart';
+import '../../features/home/ui/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

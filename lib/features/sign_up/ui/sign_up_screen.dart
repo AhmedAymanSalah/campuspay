@@ -1,4 +1,4 @@
-import 'package:campuspay/features/sign_up/ui/widgets/icon_and_Text.dart';
+import 'widgets/icon_and_Text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

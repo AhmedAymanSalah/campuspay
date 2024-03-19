@@ -1,11 +1,11 @@
-import 'package:campuspay/features/login/ui/widgets/icon_and_Text.dart';
-import 'package:campuspay/widget/custom_text_widget.dart';
+import 'widgets/icon_and_Text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../core/helpers/spacing.dart';
 import '../../../core/widgets/app_button.dart';
+import '../../../core/widgets/custom_text_widget.dart';
 import '../logic/cubit/login_cubit.dart';
 import 'widgets/dont_have_account_text.dart';
 import 'widgets/email_and_password.dart';
@@ -19,11 +19,6 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey.shade200,
-      // appBar: AppBar(
-      //   backgroundColor: Colors.grey[200],
-      //   elevation: 0,
-      //   iconTheme: const IconThemeData(color: Colors.black),
-      // ),
       body: SafeArea(
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 20.w, vertical: 20.h),
