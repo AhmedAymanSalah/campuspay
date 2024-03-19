@@ -1,3 +1,5 @@
+
+import '../../features/services/ui/services_list_view.dart';
 import 'routes.dart';
 import '../../features/attention/ui/attention_Screen.dart';
 import '../../features/home/ui/screen/home_screen.dart';
@@ -48,6 +50,9 @@ class AppRouter {
       case Routes.homeScreen:
         // Return a MaterialPageRoute for the OnBoardingScreen route.
         return MaterialPageRoute(builder: (_) => const HomeScreen());
+      case Routes.servicesScreen:
+        // Return a MaterialPageRoute for the OnBoardingScreen route.
+        return MaterialPageRoute(builder: (_) =>  ServicesScreen());
       // default:
       //   // If the requested route is not found, return a MaterialPageRoute for an unknown screen.
       //   return MaterialPageRoute(

@@ -19,17 +19,8 @@ class Campuspay extends StatelessWidget {
       splitScreenMode: true,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        initialRoute: Routes.myCustomSplashScreen,
+        initialRoute: Routes.servicesScreen,
         onGenerateRoute: appRouter.generateRoute,
-        // routes: {
-        //   //MyCustomSplashScreen.id: (context) => const MyCustomSplashScreen(),
-        //   // OnboardingPage1.id: (context) => const OnboardingPage1(),
-        //   // OnboardingPage2.id: (context) => const OnboardingPage2(),
-        //   // AttentionPage.id: (context) => const AttentionPage(),
-        //   // LogInPage.id: (context) => const LogInPage(),
-        //   // RegisterPage.id: (context) => const RegisterPage(),
-        //   // HomePage.id: (context) => const HomePage(),
-        // },
       ),
     );
   }

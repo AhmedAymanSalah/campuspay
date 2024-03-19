@@ -33,7 +33,7 @@ class _BuildItemOnBoardingState extends State<BuildItemOnBoarding> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              // app name (text)
+              //////////////////  app name (text)
               Padding(
                 padding: EdgeInsets.symmetric(vertical: 20.h),
                 child: const Row(

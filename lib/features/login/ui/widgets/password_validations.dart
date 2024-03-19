@@ -4,7 +4,6 @@ import '../../../../core/helpers/spacing.dart';
 import '../../../../core/theme/colors.dart';
 import '../../../../core/theme/styles.dart';
 
-
 class PasswordValidations extends StatelessWidget {
   final bool hasLowerCase;
   final bool hasUpperCase;
@@ -52,7 +51,7 @@ class PasswordValidations extends StatelessWidget {
             decoration: hasValidated ? TextDecoration.lineThrough : null,
             decorationColor: Colors.green,
             decorationThickness: 2,
-            color: hasValidated ? ColorsManager.gray : ColorsManager.darkBlue,
+            color: hasValidated ? ColorsManager.gray : ColorsManager.dark,
           ),
         )
       ],
