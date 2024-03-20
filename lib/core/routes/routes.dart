@@ -13,5 +13,7 @@ class Routes {
 
   static const String servicesScreen = '/servicesScreen';
 
-  static const String payServicesSceen = '/payServicesSceen';
+  static const String doneScreen = '/doneScreen';
+
+  static const String errorScreen = '/errorScreen';
 }

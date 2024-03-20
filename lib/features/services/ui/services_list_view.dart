@@ -1,7 +1,8 @@
+import 'package:campuspay/core/theme/colors.dart';
 import 'package:campuspay/core/widgets/custom_text_widget.dart';
 import 'package:flutter/material.dart';
 import '../data/services_list_data.dart';
-import 'pay_services.dart';
+import 'services_code_screen.dart';
 import 'widget/builld_item_services_screen.dart';
 
 class ServicesScreen extends StatelessWidget {
@@ -14,10 +15,13 @@ class ServicesScreen extends StatelessWidget {
         elevation: 0,
         title: const CustomTextWidget(
           text: "Services",
+          color: ColorsManager.darkBlue,
+          fontWeight: FontWeight.bold,
         ),
         centerTitle: true,
       ),
       body: ListView.builder(
+        physics: const ScrollPhysics(),
         itemCount: servicesList.length,
         itemBuilder: (context, index) => GestureDetector(
           onTap: () {

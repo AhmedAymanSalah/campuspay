@@ -1,3 +1,6 @@
+import 'package:campuspay/features/pay_screens/ui/done_Screen.dart';
+
+import '../../features/pay_screens/ui/error_Screen.dart';
 import '../../features/services/ui/services_list_view.dart';
 import 'routes.dart';
 import '../../features/attention/ui/attention_Screen.dart';
@@ -52,9 +55,12 @@ class AppRouter {
       case Routes.servicesScreen:
         // Return a MaterialPageRoute for the OnBoardingScreen route.
         return MaterialPageRoute(builder: (_) => const ServicesScreen());
-      // case Routes.payServicesSceen:
-      //   // Return a MaterialPageRoute for the OnBoardingScreen route.
-      //   return MaterialPageRoute(builder: (_) => const PayServicesSceen(s));
+      case Routes.doneScreen:
+        // Return a MaterialPageRoute for the OnBoardingScreen route.
+        return MaterialPageRoute(builder: (_) => const DoneScreen());
+      case Routes.errorScreen:
+        // Return a MaterialPageRoute for the OnBoardingScreen route.
+        return MaterialPageRoute(builder: (_) => const ErrorScreen());
       // default:
       //   // If the requested route is not found, return a MaterialPageRoute for an unknown screen.
       //   return MaterialPageRoute(

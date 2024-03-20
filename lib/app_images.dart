@@ -33,6 +33,10 @@ class Assets {
   /// assets/images/error.png
   static const String imagesError = "assets/images/error.png";
 
+  /// Assets for imagesFayoumLogo
+  /// assets/images/fayoum_logo.png
+  static const String imagesFayoumLogo = "assets/images/fayoum_logo.png";
+
   /// Assets for imagesGreenpay
   /// assets/images/greenpay.png
   static const String imagesGreenpay = "assets/images/greenpay.png";

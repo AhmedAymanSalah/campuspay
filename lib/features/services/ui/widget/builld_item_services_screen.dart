@@ -1,3 +1,4 @@
+import 'package:campuspay/core/theme/colors.dart';
 import 'package:campuspay/features/services/data/services_list_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -19,12 +20,17 @@ class BuildItemServicesScreen extends StatelessWidget {
         child: Row(
           children: [
             CircleAvatar(
+              radius: 19.dg,
               child: Image.asset(
                 servicesList[index].image,
               ),
             ),
             horizontalSpace(8),
-            CustomTextWidget(text: servicesList[index].title),
+            CustomTextWidget(
+              text: servicesList[index].title,
+              fontWeight: FontWeight.bold,
+              color: ColorsManager.darkBlue,
+            ),
           ],
         ),
       ),
