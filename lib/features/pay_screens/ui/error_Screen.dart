@@ -5,6 +5,8 @@ import 'package:campuspay/core/widgets/app_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
+import '../../transfer_money/transfer_money_Screen.dart';
+
 class ErrorScreen extends StatelessWidget {
   const ErrorScreen({super.key});
 
@@ -23,7 +25,14 @@ class ErrorScreen extends StatelessWidget {
               const Spacer(),
               AppTextButton(
                 text: "Go",
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const TransferMoney()
+                    ),
+                  );
+                },
                 buttonColor: Colors.redAccent,
               )
             ],

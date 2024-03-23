@@ -27,7 +27,7 @@ class CustomInfoContainer extends StatelessWidget {
         verticalSpace(8),
         SizedBox(
           height: 200.0.w,
-          width: 200.h, // Fixed height for the container
+          width: 200.w, // Fixed height for the container
           child: Container(
             decoration: BoxDecoration(
               border: Border.all(color: ColorsManager.green, width: 2.5.h),
